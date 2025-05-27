@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+}
+
+header {
+  background-color: #9e0b0f;
+  padding: 2rem;
+  text-align: center;
+  color: gold;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+header p {
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.hero {
+  background: linear-gradient(to bottom, #9e0b0f, #1c1c1c);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ironman-pose {
+  background-image: url('https://imgs.search.brave.com/TtoX5xWorGpy8mA8Bm_QpIN4bcFwMDNdIV_FPpgFJR4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzM5Lzc2/L2IyLzM5NzZiMmZh/YTRmZjJhZmU1OTI2/YTY5NjJmYjZhYWU5/LmpwZw');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 300px;
+}
+
+.about {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about h2 {
+  color: gold;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: #2e2e2e;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-left: 5px solid gold;
+  width: 90%;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  border-left: 5px solid crimson;
+}
